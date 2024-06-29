@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="UNIVERSITAS"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_width="146dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logouniku" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Universitas Kuningan"
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="Universitas Kuningan (UNIKU) didirikan sebagai perwujudan dari idealisme dan komitmen Yayasan Pendidikan Sang Adipati Kuningan untuk terus menerus berkarya khususnya dalam bidang peningkatan sumber daya manusia menuju peningkatan mutu kehidupan masyarakat pada umumnya.
+
+Universitas Kuningan memiliki 5 fakultas yaitu Fakultas Hukum, Fakultas Ekonomi dan Bisnis, Fakultas Kehutanan, Fakultas Keguruan dan Ilmu Pendidikan dan Fakultas Ilmu Komputer serta mempunyai Pascasarjana."
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+</LinearLayout>

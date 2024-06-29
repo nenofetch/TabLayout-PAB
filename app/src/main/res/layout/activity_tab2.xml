@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Fakultas"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fakultas" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Fakultas Ilmu Komputer"
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="Fakultas Ilmu Komputer merupakan  salah satu Fakultas yang ada di Universitas Kuningan dan memiliki 5 Program Studi yaitu
+Teknik Informatika, Sistem Informasi, Manajemen Informatika D3, Desain Komunikasi Visual dan Teknik Sipil."
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+</LinearLayout>

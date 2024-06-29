@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Teknik Informatika"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_width="146dp"
+        android:layout_height="226dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fkom" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Teknik Informatika"
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="Program studi Teknik Informatika merupakan salah satu program studi Fakultas Ilmu Komputer di Universitas Kuningan yang memiliki visi sebagai berikut :
+Terwujudnya Program Studi Teknik Informatika yang handal dan unggul dibidang informatika khususnya bidang Rekayasa Perangkat Lunak, dan Pengolahan Citra dan memiliki komitmen tinggi dalam Pemberdayaan Masyarakat pada tahun 2032."
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+</LinearLayout>
